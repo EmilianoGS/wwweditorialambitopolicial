@@ -1,0 +1,16 @@
+#buttonEnviar{
+    background: rgb(31, 31, 31);
+    color:#fff;
+    border:none;
+    padding:10px 15px;
+}
+p{
+    font-size: 18px;
+}
+#fechahoy p{
+ font-size: 16px;
+padding-top:15px;
+}
+#contacto p{
+ font-size: 16px;
+}

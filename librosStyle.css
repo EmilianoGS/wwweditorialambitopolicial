@@ -1,0 +1,218 @@
+body{
+	background-color: #333;
+}
+#contenidoprincipal{
+	margin:0;
+	padding:0;
+}		
+	.Pagina {
+	position: relative;
+    height: 100%;
+    width: 50%;
+    float:left;
+	/* 'Shrink-wrap' the element */
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+#contenedor2{
+	width: auto;
+	float:none;
+	margin-left: 0px;
+}
+#contenedor3{
+	width: auto;
+	/* float:right; */
+	margin-left: 0px;
+}
+#imagenesizq{
+	float:right;
+	height: 100%;
+	width: 100%;
+}
+#primerimagenesizq{
+	float:right;
+	height: 100%;
+	width: 100%;
+}
+#ultiderecha{
+	float:right;
+	height: 100%;
+	width: 100%;
+}
+#imagenesder{
+	float:right;
+	height: 100%;
+	width: 100%;
+}
+#imagenesizq:hover{
+	width: 685px;
+	height: 1000px;
+	position:relative;
+}
+#imagenesder:hover{
+	width: 685px;
+	height: 1000px;
+	position:relative;
+}
+#contenedor_titulo{
+  /*border: 7px double #000; /*rgba(238,145,6); */
+  height:auto;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  margin: 0px auto;
+  background-color: #fff;
+  border-radius: 0px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed),color-stop(80%,#fafafa)); 
+				/* -webkit-box-shadow: 10px 0px 10px #696969; */
+				
+}
+
+#titulorevista{
+	font-family: 'geneva', sans-serif ;
+	width: 373px;
+	height: 190px;
+    margin: 0px auto;
+    text-align:center;
+    color: #49256d;
+}
+#titulorevista h4, h5{
+	display:inline;
+}
+#titulorevista h1{
+	font-size: 25px
+}
+#titulorevista p{
+	font-style: italic;
+	font-size: 10px
+}
+#pasadorpag{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-top: 1px solid #6e6e6e ;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#a8a8a8),color-stop(75%,#d1d1d1));
+	margin-bottom: 60px;
+}
+#revista{
+	padding:40px 20px;
+	background-color: #333;
+}
+#clearboth{
+	clear:both;
+}
+#imagenlibro2{
+	 height: 305.5px;
+	width: 194.4px;
+	display: block;
+	margin: 20px 30px 30px;
+	background-repeat: no-repeat;
+	background-image: url(imagenes/imglibro2.jpg);
+	background-size:cover;
+	float: right;
+}
+#contacto{
+	margin: 0px 50px 0 auto;
+	text-align:center;
+    height: 44px;
+    float:right;
+}
+#contacto p{
+    color:rgba(60,66,82,1);
+	margin: 0;
+	width:auto;
+	display:inline-block;
+	text-align:right;
+}
+
+#textoinformativo{
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	position:absolute;
+}
+#mas{
+	margin-bottom: 15px;
+	padding-left: 15px;
+}
+#visitas{
+	padding-top: 40px;
+}
+#contenedor_cel{
+	display:none;
+}
+@media all and (max-width: 599px) {
+
+#titulopag{
+
+padding-left: 15px;
+}
+#titulopag h1{
+	margin:0;
+	font-size: 25px;
+}
+#bannertitulo{
+	height: auto;
+}
+#cabecera{
+    width: 80%;
+    padding:0;
+}
+#logo_titulo{
+	width: 100%;
+	margin: 0 auto;
+	background-position: center;
+}
+
+#contacto{
+	height: auto;
+	width: auto;
+	font-size: 13px;
+	margin: 0 auto;
+	clear:both;
+	float:none;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+#contacto p{
+	
+	margin: 0 auto;
+	text-align: center;
+}
+#contenedor{
+	display:none;
+}
+#contenedor_cel{
+	width:100%;
+	display:inline-block;
+	height:auto;
+    margin-top: 50px;
+}
+#versioncel{
+	display: inline-block;
+	height: 650px;
+	width: 100%;
+	padding:0 0px;
+	margin-top: 20px;
+}
+#revistacel{
+	background-color:#333;
+	margin-top: 50px;
+}
+#titulorevista{
+	width:90%;
+}
+#sincontenedor3{
+	display:none
+}
+#sincontenedor2{
+	display:none
+}
+#sincontenedor{
+	display:none;
+}
+}/*FIN DEL @media*/
